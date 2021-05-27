@@ -1,0 +1,31 @@
+html,
+body,
+#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('../top.jpg') 0 0 fixed;
+}
+.ql-editor{
+    min-height: 8rem;
+}
+.el-steps{
+    margin: .533333rem 0;
+}
+.el-step__title{
+    font-size: .346667rem;
+}
+.loop(@n) when (@n < 100) {
+  .el-table__body {
+    .el-table__row:nth-child(@{n}) {
+      opacity: 0;
+      animation: table-show 300ms @n * 50ms forwards ease-out;
+    }
+  }
+  .loop((@n + 1));
+}
+.loop(0);
+@keyframes table-show {
+  0% { transform: translateY(50px); opacity: .5; }
+  100% { transform: translateY(0); opacity: 1; }
+}

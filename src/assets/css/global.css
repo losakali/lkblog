@@ -1,0 +1,427 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('../paint_stains.jpg') 0 0 fixed;
+}
+.ql-editor {
+  min-height: 8rem;
+}
+.el-steps {
+  margin: 0.533333rem 0;
+}
+.el-step__title {
+  font-size: 0.346667rem;
+}
+.el-table__body .el-table__row:nth-child(0) {
+  opacity: 0;
+  animation: table-show 300ms 0ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(1) {
+  opacity: 0;
+  animation: table-show 300ms 50ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(2) {
+  opacity: 0;
+  animation: table-show 300ms 100ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(3) {
+  opacity: 0;
+  animation: table-show 300ms 150ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(4) {
+  opacity: 0;
+  animation: table-show 300ms 200ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(5) {
+  opacity: 0;
+  animation: table-show 300ms 250ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(6) {
+  opacity: 0;
+  animation: table-show 300ms 300ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(7) {
+  opacity: 0;
+  animation: table-show 300ms 350ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(8) {
+  opacity: 0;
+  animation: table-show 300ms 400ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(9) {
+  opacity: 0;
+  animation: table-show 300ms 450ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(10) {
+  opacity: 0;
+  animation: table-show 300ms 500ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(11) {
+  opacity: 0;
+  animation: table-show 300ms 550ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(12) {
+  opacity: 0;
+  animation: table-show 300ms 600ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(13) {
+  opacity: 0;
+  animation: table-show 300ms 650ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(14) {
+  opacity: 0;
+  animation: table-show 300ms 700ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(15) {
+  opacity: 0;
+  animation: table-show 300ms 750ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(16) {
+  opacity: 0;
+  animation: table-show 300ms 800ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(17) {
+  opacity: 0;
+  animation: table-show 300ms 850ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(18) {
+  opacity: 0;
+  animation: table-show 300ms 900ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(19) {
+  opacity: 0;
+  animation: table-show 300ms 950ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(20) {
+  opacity: 0;
+  animation: table-show 300ms 1000ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(21) {
+  opacity: 0;
+  animation: table-show 300ms 1050ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(22) {
+  opacity: 0;
+  animation: table-show 300ms 1100ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(23) {
+  opacity: 0;
+  animation: table-show 300ms 1150ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(24) {
+  opacity: 0;
+  animation: table-show 300ms 1200ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(25) {
+  opacity: 0;
+  animation: table-show 300ms 1250ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(26) {
+  opacity: 0;
+  animation: table-show 300ms 1300ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(27) {
+  opacity: 0;
+  animation: table-show 300ms 1350ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(28) {
+  opacity: 0;
+  animation: table-show 300ms 1400ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(29) {
+  opacity: 0;
+  animation: table-show 300ms 1450ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(30) {
+  opacity: 0;
+  animation: table-show 300ms 1500ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(31) {
+  opacity: 0;
+  animation: table-show 300ms 1550ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(32) {
+  opacity: 0;
+  animation: table-show 300ms 1600ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(33) {
+  opacity: 0;
+  animation: table-show 300ms 1650ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(34) {
+  opacity: 0;
+  animation: table-show 300ms 1700ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(35) {
+  opacity: 0;
+  animation: table-show 300ms 1750ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(36) {
+  opacity: 0;
+  animation: table-show 300ms 1800ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(37) {
+  opacity: 0;
+  animation: table-show 300ms 1850ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(38) {
+  opacity: 0;
+  animation: table-show 300ms 1900ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(39) {
+  opacity: 0;
+  animation: table-show 300ms 1950ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(40) {
+  opacity: 0;
+  animation: table-show 300ms 2000ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(41) {
+  opacity: 0;
+  animation: table-show 300ms 2050ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(42) {
+  opacity: 0;
+  animation: table-show 300ms 2100ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(43) {
+  opacity: 0;
+  animation: table-show 300ms 2150ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(44) {
+  opacity: 0;
+  animation: table-show 300ms 2200ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(45) {
+  opacity: 0;
+  animation: table-show 300ms 2250ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(46) {
+  opacity: 0;
+  animation: table-show 300ms 2300ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(47) {
+  opacity: 0;
+  animation: table-show 300ms 2350ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(48) {
+  opacity: 0;
+  animation: table-show 300ms 2400ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(49) {
+  opacity: 0;
+  animation: table-show 300ms 2450ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(50) {
+  opacity: 0;
+  animation: table-show 300ms 2500ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(51) {
+  opacity: 0;
+  animation: table-show 300ms 2550ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(52) {
+  opacity: 0;
+  animation: table-show 300ms 2600ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(53) {
+  opacity: 0;
+  animation: table-show 300ms 2650ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(54) {
+  opacity: 0;
+  animation: table-show 300ms 2700ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(55) {
+  opacity: 0;
+  animation: table-show 300ms 2750ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(56) {
+  opacity: 0;
+  animation: table-show 300ms 2800ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(57) {
+  opacity: 0;
+  animation: table-show 300ms 2850ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(58) {
+  opacity: 0;
+  animation: table-show 300ms 2900ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(59) {
+  opacity: 0;
+  animation: table-show 300ms 2950ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(60) {
+  opacity: 0;
+  animation: table-show 300ms 3000ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(61) {
+  opacity: 0;
+  animation: table-show 300ms 3050ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(62) {
+  opacity: 0;
+  animation: table-show 300ms 3100ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(63) {
+  opacity: 0;
+  animation: table-show 300ms 3150ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(64) {
+  opacity: 0;
+  animation: table-show 300ms 3200ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(65) {
+  opacity: 0;
+  animation: table-show 300ms 3250ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(66) {
+  opacity: 0;
+  animation: table-show 300ms 3300ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(67) {
+  opacity: 0;
+  animation: table-show 300ms 3350ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(68) {
+  opacity: 0;
+  animation: table-show 300ms 3400ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(69) {
+  opacity: 0;
+  animation: table-show 300ms 3450ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(70) {
+  opacity: 0;
+  animation: table-show 300ms 3500ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(71) {
+  opacity: 0;
+  animation: table-show 300ms 3550ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(72) {
+  opacity: 0;
+  animation: table-show 300ms 3600ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(73) {
+  opacity: 0;
+  animation: table-show 300ms 3650ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(74) {
+  opacity: 0;
+  animation: table-show 300ms 3700ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(75) {
+  opacity: 0;
+  animation: table-show 300ms 3750ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(76) {
+  opacity: 0;
+  animation: table-show 300ms 3800ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(77) {
+  opacity: 0;
+  animation: table-show 300ms 3850ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(78) {
+  opacity: 0;
+  animation: table-show 300ms 3900ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(79) {
+  opacity: 0;
+  animation: table-show 300ms 3950ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(80) {
+  opacity: 0;
+  animation: table-show 300ms 4000ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(81) {
+  opacity: 0;
+  animation: table-show 300ms 4050ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(82) {
+  opacity: 0;
+  animation: table-show 300ms 4100ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(83) {
+  opacity: 0;
+  animation: table-show 300ms 4150ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(84) {
+  opacity: 0;
+  animation: table-show 300ms 4200ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(85) {
+  opacity: 0;
+  animation: table-show 300ms 4250ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(86) {
+  opacity: 0;
+  animation: table-show 300ms 4300ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(87) {
+  opacity: 0;
+  animation: table-show 300ms 4350ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(88) {
+  opacity: 0;
+  animation: table-show 300ms 4400ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(89) {
+  opacity: 0;
+  animation: table-show 300ms 4450ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(90) {
+  opacity: 0;
+  animation: table-show 300ms 4500ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(91) {
+  opacity: 0;
+  animation: table-show 300ms 4550ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(92) {
+  opacity: 0;
+  animation: table-show 300ms 4600ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(93) {
+  opacity: 0;
+  animation: table-show 300ms 4650ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(94) {
+  opacity: 0;
+  animation: table-show 300ms 4700ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(95) {
+  opacity: 0;
+  animation: table-show 300ms 4750ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(96) {
+  opacity: 0;
+  animation: table-show 300ms 4800ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(97) {
+  opacity: 0;
+  animation: table-show 300ms 4850ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(98) {
+  opacity: 0;
+  animation: table-show 300ms 4900ms forwards ease-out;
+}
+.el-table__body .el-table__row:nth-child(99) {
+  opacity: 0;
+  animation: table-show 300ms 4950ms forwards ease-out;
+}
+@keyframes table-show {
+  0% {
+    transform: translateY(50px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
